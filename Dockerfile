@@ -1,4 +1,4 @@
-org.opencontainers.image.source = "https://github.com/UVADS/building-api"
+LABEL org.opencontainers.image.source = "https://github.com/UVADS/building-api"
 FROM tiangolo/uvicorn-gunicorn:python3.11
 COPY requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
