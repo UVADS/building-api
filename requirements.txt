@@ -4,3 +4,5 @@ uvicorn
 uuid
 boto3
 botocore
+requests
+pymongo
